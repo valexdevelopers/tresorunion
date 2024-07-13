@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Admin | Tresor Union</title>
+        <title>Admin | Tresor Crest</title>
         @include('layouts.admindashboardhead')
     </head>
     <body class="menu-position-side menu-side-left full-screen">

@@ -3,7 +3,7 @@
 	
     <head>
         @include('layouts.sitehead')
-		<title>Home | Tresor Union</title>
+		<title>Home | Tresor Crest</title>
 		
 	</head>
 	<body class="home_page_h">

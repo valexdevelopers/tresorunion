@@ -55,7 +55,7 @@
     </div>
 </footer>
 <div class="copiright"> 
-    <span>Tresor Union &#169; 2024  All Rights Reserved</span>
+    <span>Tresor Crest &#169; 2024  All Rights Reserved</span>
 
 </div>
     <!-- jQuery -->

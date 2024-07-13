@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('description');
             $table->string('trans_type');
             $table->integer('amount');
+            $table->string('status');
             $table->timestamps();
             $table->foreign('user_id')
                     ->references('id')

@@ -1,0 +1,40 @@
+:root{
+    --bg-color: #1d6c91;
+    --text-color: rgb(102, 96, 96);
+    --borders-color: rgba(113, 113, 113, 0.277);
+    
+
+}
+
+.no_list_style {
+    list-style-type: none;
+}
+
+.no_text_deco {
+    text-decoration: none;
+}
+
+.page_wrapper{
+    font-family: sans-serif;
+}
+
+
+.bordered_btn{
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--borders-color);
+}
+
+.debit{
+    color: red;
+    background-color: rgba(255, 0, 0, 0.129);
+}
+
+
+.credit{
+    color: green;
+    background-color: rgba(54, 255, 47, 0.142)
+}
+.d-inline-block{
+    display: inline-block;
+}

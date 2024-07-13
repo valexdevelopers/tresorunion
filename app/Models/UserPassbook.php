@@ -23,6 +23,7 @@ class UserPassbook extends Model
             'description',
             'trans_type',
             'amount',
+            'status',
     ];
 
     

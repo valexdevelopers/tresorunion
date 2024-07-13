@@ -3,7 +3,7 @@
 
     <head>
         @include('layouts.sitehead')
-        <title>News | Tresor Union</title>	
+        <title>News | Tresor Crest</title>	
     
     </head>
 

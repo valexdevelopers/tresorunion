@@ -1,7 +1,7 @@
 <div class="top-bar color-scheme-bright">
     <div class="logo-w menu-size">
         <a class="logo" href="index.php">
-            <div class="logo-label">Altfolio</div>
+            <div class="logo-label">Tresor Crest</div>
         </a>
     </div>
     <div class="fancy-selector-w"></div>

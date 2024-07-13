@@ -1,7 +1,7 @@
         <meta charset="utf-8">
         <meta content="ie=edge" http-equiv="x-ua-compatible">
         <meta content="admin dashboard" name="keywords">
-        <meta name="description" content="Tresor Union is a community of people who are interested in making money with Bitcoin and other crypto-currency opportunities. Learn how to profit from digital currencies.">
+        <meta name="description" content="Tresor Crest is a community of people who are interested in making money with Bitcoin and other crypto-currency opportunities. Learn how to profit from digital currencies.">
         <meta content="width=device-width,initial-scale=1" name="viewport">
         <meta property="og:image" content="{{ asset('img/fb.png') }}">
         <meta property="twitter:image" content="{{ asset('img/fb.png') }}" />

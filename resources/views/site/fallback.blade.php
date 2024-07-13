@@ -1,7 +1,7 @@
 <html>
     <head>
         @include('layouts.sitehead')	
-        <title>404 | Tresor Union</title>	
+        <title>404 | Tresor Crest</title>	
     
     </head>
 

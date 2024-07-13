@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Admin | Tresor Union</title>
+        <title>Admin | Tresor Crest</title>
         @include('layouts.admindashboardhead')
     </head>
     <body class="menu-position-side menu-side-left full-screen">
@@ -173,7 +173,7 @@
                                                                 <option value="daugther"> Daughter's name</option>
                                                                 <option value="mother">Mother's maiden name</option>
                                                                 <option value="food">Favourite food</option>
-                                                        </select>
+                                                            </select>
                                                         </div>
 
                                                     </div>

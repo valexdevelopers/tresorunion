@@ -25,5 +25,20 @@ Route::prefix('admin')->group(function () {
         Route::get('users/delete/{id}', [Admin\UserController::class, 'destroy'])->name('admin.user.destroy');
         Route::get('users/freeze/{id}', [Admin\UserController::class, 'freeze'])->name('admin.user.freeze');
         Route::get('users/activate/{id}', [Admin\UserController::class, 'activate'])->name('admin.user.activate');
+        Route::get('users/passport/{id}', [Admin\UserController::class, 'passport'])->name('admin.user.passport.create');
+        Route::post('users/passport', [Admin\UserController::class, 'updatepassport'])->name('admin.user.passport.store');
+
+        Route::get('users/transaction/{id}', [Admin\UserController::class, 'transaction'])->name('admin.user.transaction.create');
+        Route::post('users/transaction', [Admin\UserController::class, 'updatetransaction'])->name('admin.user.transaction.store');
+
+        Route::get('users/securityquestion/{id}', [Admin\UserController::class, 'securityquestion'])->name('admin.user.securityquestion.create');
+        Route::post('users/securityquestion', [Admin\UserController::class, 'updatesecurityquestion'])->name('admin.user.securityquestion.store');
+        
+        Route::get('users/password/{id}', [Admin\UserController::class, 'password'])->name('admin.user.password.create');
+        Route::post('users/password', [Admin\UserController::class, 'updatepassword'])->name('admin.user.password.store');
+
+        Route::get('users/sendmail/{id}', [Admin\UserController::class, 'sendmail'])->name('admin.user.sendmail.create');
+        Route::post('users/sendmail', [Admin\UserController::class, 'sendmailtouser'])->name('admin.user.sendmail.store');
+        
     });
 });

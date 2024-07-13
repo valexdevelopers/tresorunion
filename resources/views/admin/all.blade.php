@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Admin | Tresor Union</title>
+        <title>Admin | Tresor Crest</title>
         @include('layouts.admindashboardhead')
     </head>
     <body class="menu-position-side menu-side-left full-screen">
@@ -70,11 +70,12 @@
                                                                     Actions
                                                                 </button>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.activate', $id =  $user->id) }}">Change Password</a></li>
-                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.activate', $id =  $user->id) }}">Change Passportd</a></li>
-                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.activate', $id =  $user->id) }}">Add Transaction</a></li>
-                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.activate', $id =  $user->id) }}">Change Security Question</a></li>
-                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.activate', $id =  $user->id) }}">Send Mail</a></li>
+                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.password.create', $id =  $user->id) }}">Change Password</a></li>
+                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.passport.create', $id =  $user->id) }}">Change Passport</a></li>
+                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.transaction.create', $id =  $user->id) }}">Add Transaction</a></li>
+                                                                    {{-- <li><a class="dropdown-item" href="{{ route('admin.user.transaction.index', $id =  $user->id) }}">View Transaction</a></li> --}}
+                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.securityquestion.create', $id =  $user->id) }}">Change Security Question</a></li>
+                                                                    <li><a class="dropdown-item" href="{{ route('admin.user.sendmail.create', $id =  $user->id) }}">Send Mail</a></li>
                                                                     @if($user->status !== 'active')
                                                                         <li><a class="dropdown-item" href="{{ route('admin.user.activate', $id =  $user->id) }}">Activate Account</a></li>
                                                                     @else

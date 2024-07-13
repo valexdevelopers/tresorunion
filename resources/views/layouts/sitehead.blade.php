@@ -1,7 +1,7 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="keywords" content="banking, online banking, mobile banking, easy banking" />
-		<meta name="description" content="Banking at your finger tips! The official online banking platform to manage all your Tresor Union account, pay bills, manage transfers, mortgage and everything else."/>
+		<meta name="description" content="Banking at your finger tips! The official online banking platform to manage all your Tresor Crest account, pay bills, manage transfers, mortgage and everything else."/>
 		<meta name="author" content="A tech enthusiast"/>
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
